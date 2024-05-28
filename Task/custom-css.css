@@ -1,0 +1,20 @@
+body {
+  background-color: grey;
+}
+
+
+
+#boxcontain {
+  position: absolute;
+  min-width: 90%;
+  min-height: 10%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#containerCR {
+ display: flex;
+ justify-content: space-evenly;
+}
